@@ -1,8 +1,8 @@
 === Plugin Name ===
 Contributors: thomasB5
 Donate link: #
-Requires at least: PHP 5.3
-Tested up to: 3.96
+Requires at least: PHP 5.3, WP 3.9.6
+Tested up to: 4.23
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,9 +12,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This is the core of the "Sponsorship" software. This allows blog users to send E-mails to a list of contacts of their choice.
 
-The content of the E-mails are controlled by the admin. They can contain links, html, photos etc. This is meant to be a base to build on! So be creative!
+The content of the E-mails are controlled by the admin. They can contain links, html, photos etc. For example, by adding a link to an article in the E-mail body you can create a powerful article sharing page where a visitor can share the link with his E-mail contacts. Another example could be to create a small invitations page where the visitor lists the people to invite and the admin customizes the content.
+
+This is meant to be a base to build on! So be creative!
 
 If you are interested, we have some extensions we built ourselves at http://www.wp-inbound.com/wpsponsorship/.
+
+Before you get started, you will need an SMTP server. Alternatively, you can use your Gmail account as an SMTP server if you wish. For more information check out this link: https://www.digitalocean.com/community/tutorials/how-to-use-google-s-smtp-server.
+
+Other great SMTP hosts are turboSMTP (http://www.serversmtp.com/) and MANDRILL (https://www.mandrill.com/). Set up is quick, easy and free.
 
 
 == Installation ==
