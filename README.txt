@@ -12,9 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This is the core of the "Sponsorship" software. This allows blog users to send E-mails to a list of contacts of their choice.
 
-The content of the E-mails are controlled by the admin. They can contain links, html, photos etc. This is meant to be a base to build on!
-
-So be creative!
+The content of the E-mails are controlled by the admin. They can contain links, html, photos etc. This is meant to be a base to build on! So be creative!
 
 If you are interested, we have some extensions we built ourselves at http://www.wp-inbound.com/wpsponsorship/.
 
@@ -31,9 +29,7 @@ a new page in any menu you like and put the following shortcode:
 Each parameter is the text displayed in the submit buttons. Launch as is to get a feel for it, then change the text to your taste.
 
 
-All emails sent out are saved in the database under *prefix*email_contacts (the emails receivers) and *prefix*email_sender
-
-(the email senders). The emails are being sent using 'SwiftMailer', an open source software simplifying the E-mail sending process.
+All emails sent out are saved in the database under *prefix*email_contacts (the emails receivers) and *prefix*email_sender (the email senders). The emails are being sent using 'SwiftMailer', an open source software simplifying the E-mail sending process.
 
 
 For more information on extensions and documentation go to our website: http://www.wp-inbound.com/.
