@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSponsorship\n"
+"POT-Creation-Date: 2015-06-16 11:22+0100\n"
+"PO-Revision-Date: 2015-06-16 11:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-WPHeader: sponsorship.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/class-sponsorship-admin_page.php:65
+msgid "Mail Format"
+msgstr "Format Courrier"
+
+#: includes/class-sponsorship-admin_page.php:177
+#, fuzzy
+msgid "No Debug"
+msgstr "Pas de Débogage"
+
+#: includes/class-sponsorship-admin_page.php:178
+#, fuzzy
+msgid "Message Client"
+msgstr "Message client"
+
+#: includes/class-sponsorship-admin_page.php:179
+#, fuzzy
+msgid "Message CLient and Server"
+msgstr "Message client"
+
+#: includes/class-sponsorship-admin_page.php:184
+#, fuzzy
+msgid "Host"
+msgstr "Hébergent"
+
+#: includes/class-sponsorship-admin_page.php:185
+#, fuzzy
+msgid "Server in which the email will be sent"
+msgstr "Les notifications par courriel seront envoyés à vous"
+
+#: includes/class-sponsorship-admin_page.php:191
+#, fuzzy
+msgid "Port Number"
+msgstr "Numéro de port"
+
+#: includes/class-sponsorship-admin_page.php:192
+msgid "port in which to send SMTP or php mail"
+msgstr ""
+
+#: includes/class-sponsorship-admin_page.php:199
+#, fuzzy
+msgid "User Name"
+msgstr "Nom de l’utilisateur"
+
+#: includes/class-sponsorship-admin_page.php:200
+msgid "User Name of your server that will send the mail"
+msgstr ""
+
+#: includes/class-sponsorship-admin_page.php:207
+#, fuzzy
+msgid "Password"
+msgstr "Mot de passe"
+
+#: includes/class-sponsorship-admin_page.php:208
+msgid "password of your server that will send the mail"
+msgstr ""
+
+#: includes/class-sponsorship-admin_page.php:218
+#, fuzzy
+msgid "No encryption"
+msgstr "Pas de cryptage"
+
+#: includes/class-sponsorship-admin_page.php:219
+msgid "SSL"
+msgstr ""
+
+#: includes/class-sponsorship-admin_page.php:220
+msgid "TLS"
+msgstr ""
+
+#: includes/class-sponsorship-admin_page.php:253
+#, fuzzy
+msgid "Sender Email:"
+msgstr "Adresse e-mail de l’expéditeur"
+
+#: includes/class-sponsorship-admin_page.php:254
+#, fuzzy
+msgid "Email address for users to reply to"
+msgstr "Votre adresse mail ne sera pas publiée."
+
+#: includes/class-sponsorship-admin_page.php:260
+#, fuzzy
+msgid "Email Body"
+msgstr "Corps du courriel"
+
+#: includes/class-sponsorship-admin_page.php:261
+msgid "Save when done editing"
+msgstr ""
+
+#: includes/class-sponsorship-admin_page.php:269
+#, fuzzy
+msgid "Choose Email Service"
+msgstr "Votre adresse mail ne sera pas publiée."
+
+#: includes/class-sponsorship-admin_page.php:273
+#, fuzzy
+msgid "Wordpress Mail"
+msgstr "Format Courrier"
+
+#: includes/class-sponsorship-admin_page.php:274
+msgid "SMTP"
+msgstr ""
+
+#: includes/class-sponsorship-admin_page.php:275
+#, fuzzy
+msgid "PHP Mail"
+msgstr "Formulaire d’e-mail"
+
+#: includes/class-sponsorship-shortcode.php:207
+#, fuzzy
+msgid "E-mail Address"
+msgstr "Adresse E-mail"
+
+#: includes/class-sponsorship-shortcode.php:209
+#: includes/class-sponsorship-shortcode.php:229
+#: includes/class-sponsorship-shortcode.php:247
+#, fuzzy
+msgid "Name"
+msgstr "Nom"
+
+#: includes/class-sponsorship-shortcode.php:211
+msgid "Subject"
+msgstr ""
+
+#: includes/class-sponsorship-shortcode.php:214
+#: includes/class-sponsorship-shortcode.php:233
+msgid "please fill in all fields"
+msgstr ""
+
+#: includes/class-sponsorship-shortcode.php:215
+#: includes/class-sponsorship-shortcode.php:234
+msgid "submission succesful"
+msgstr ""
+
+#: includes/class-sponsorship-shortcode.php:216
+msgid "Invalid Input: only letters and numbers allowed"
+msgstr ""
+
+#: includes/class-sponsorship-shortcode.php:231
+#, fuzzy
+msgid "E-Mail"
+msgstr "Adresses e-mail"
+
+#: includes/class-sponsorship-shortcode.php:235
+#, fuzzy
+msgid "deletion succesful"
+msgstr "Confirmer la suppression"
+
+#: includes/class-sponsorship-shortcode.php:236
+msgid "Invalid input: only letters and `numbers allowed"
+msgstr ""
+
+#: includes/class-sponsorship-shortcode.php:247
+#, fuzzy
+msgid "E-mail"
+msgstr "Adresses e-mail"
+
+#: includes/class-sponsorship-shortcode.php:265
+#, fuzzy
+msgid "Delete Selected items"
+msgstr "Eléments par page"
+
+#. Plugin Name of the plugin/theme
+msgid "WPSponsorship"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "#"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr "Est ce que ça fonctionne ??"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Thomas Karatzas"
+msgstr "Thomas Karatzas"

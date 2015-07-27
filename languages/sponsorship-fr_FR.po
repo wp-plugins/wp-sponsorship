@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSponsorship\n"
+"POT-Creation-Date: 2015-06-16 14:14+0100\n"
+"PO-Revision-Date: 2015-06-16 14:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: B5 Productions <tous@b5prod.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-WPHeader: sponsorship.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/class-sponsorship-admin_page.php:66
+msgid "Mail Format"
+msgstr "Format de l’email"
+
+#: includes/class-sponsorship-admin_page.php:173
+msgid "Choose email send type"
+msgstr ""
+
+#: includes/class-sponsorship-admin_page.php:178
+msgid "No Debug"
+msgstr "Pas de Débogage"
+
+#: includes/class-sponsorship-admin_page.php:179
+msgid "Message Client"
+msgstr "Message client"
+
+#: includes/class-sponsorship-admin_page.php:180
+msgid "Message Client and Server"
+msgstr ""
+
+#: includes/class-sponsorship-admin_page.php:185
+msgid "Host"
+msgstr "Hôte"
+
+#: includes/class-sponsorship-admin_page.php:186
+msgid "Server in which the email will be sent"
+msgstr "Serveur dans lequel l’e-mail sera envoyé"
+
+#: includes/class-sponsorship-admin_page.php:192
+msgid "Port Number"
+msgstr "Numéro de port"
+
+#: includes/class-sponsorship-admin_page.php:193
+msgid "Port in which to send SMTP"
+msgstr "Port dans lequel Envoyer SMTP"
+
+#: includes/class-sponsorship-admin_page.php:200
+msgid "User Name"
+msgstr "Nom de l’utilisateur"
+
+#: includes/class-sponsorship-admin_page.php:201
+msgid "User Name for your server that will send the mail"
+msgstr "Nom d’utilisateur pour votre serveur qui envoie le courrier"
+
+#: includes/class-sponsorship-admin_page.php:208
+msgid "Password"
+msgstr "Mot de passe"
+
+#: includes/class-sponsorship-admin_page.php:209
+msgid "Password for your server that will send the mail"
+msgstr "Mot de passe pour votre serveur qui envoie le courrier"
+
+#: includes/class-sponsorship-admin_page.php:215
+msgid "Choose Encryption Type"
+msgstr "Choisissez le Type de cryptage"
+
+#: includes/class-sponsorship-admin_page.php:219
+msgid "No encryption"
+msgstr "Pas de cryptage"
+
+#: includes/class-sponsorship-admin_page.php:220
+msgid "SSL"
+msgstr "SSL"
+
+#: includes/class-sponsorship-admin_page.php:221
+msgid "TLS"
+msgstr "TLS"
+
+#: includes/class-sponsorship-admin_page.php:244
+msgid "Sender Email:"
+msgstr "Adresse e-mail de l’expéditeur"
+
+#: includes/class-sponsorship-admin_page.php:245
+msgid "Email address for users to reply to"
+msgstr "Adresse de courriel où rediriger les réponses…."
+
+#: includes/class-sponsorship-admin_page.php:251
+msgid "Email Body"
+msgstr "Corps de l’email"
+
+#: includes/class-sponsorship-admin_page.php:252
+msgid "Save when done editing"
+msgstr "Enregistrer les paramètres de modification"
+
+#: includes/class-sponsorship-admin_page.php:260
+msgid "Choose Email Service"
+msgstr "Choisissez le Service de courrier électronique"
+
+#: includes/class-sponsorship-admin_page.php:264
+msgid "Wordpress Mail"
+msgstr "Wordpress Mail"
+
+#: includes/class-sponsorship-admin_page.php:265
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/class-sponsorship-admin_page.php:266
+msgid "PHP Mail"
+msgstr "PHP mail"
+
+#: includes/class-sponsorship-shortcode.php:207
+msgid "E-mail Address"
+msgstr "Adresse E-mail"
+
+#: includes/class-sponsorship-shortcode.php:209
+#: includes/class-sponsorship-shortcode.php:229
+#: includes/class-sponsorship-shortcode.php:247
+msgid "Name"
+msgstr "Nom"
+
+#: includes/class-sponsorship-shortcode.php:211
+msgid "Subject"
+msgstr "Sujet du message"
+
+#: includes/class-sponsorship-shortcode.php:214
+#: includes/class-sponsorship-shortcode.php:233
+msgid "please fill in all fields"
+msgstr "Merci de remplir tous les champs"
+
+#: includes/class-sponsorship-shortcode.php:215
+#: includes/class-sponsorship-shortcode.php:234
+msgid "submission succesful"
+msgstr "Envoyé avec succès"
+
+#: includes/class-sponsorship-shortcode.php:216
+msgid "Invalid Input: only letters and numbers allowed"
+msgstr "Seuls les chiffres et lettres sont autorisés"
+
+#: includes/class-sponsorship-shortcode.php:231
+msgid "E-Mail"
+msgstr "Courriel"
+
+#: includes/class-sponsorship-shortcode.php:235
+msgid "deletion succesful"
+msgstr "suppression réussie"
+
+#: includes/class-sponsorship-shortcode.php:236
+msgid "Invalid input: only letters and numbers allowed"
+msgstr "Seuls les chiffres et les lettres sont autorisés"
+
+#: includes/class-sponsorship-shortcode.php:247
+msgid "E-mail"
+msgstr "Email"
+
+#: includes/class-sponsorship-shortcode.php:265
+msgid "Delete Selected items"
+msgstr "Supprimer les éléments sélectionnés"
+
+#. Plugin Name of the plugin/theme
+msgid "WPSponsorship"
+msgstr "WPSponsorship"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "#"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "B5productions"
+msgstr "B5 Productions"
+
+
+
