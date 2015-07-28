@@ -41,3 +41,5 @@ All emails sent out are saved in the database under *prefix*email_contacts (the 
 For more information on extensions and documentation go to our website: http://www.wp-inbound.com/.
 
 A full installation and set up guide can be found at http://www.wp-inbound.com/documentation-wpsponsorship/.
+
+tags: [email] (“tags/email“), 
