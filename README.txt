@@ -3,6 +3,7 @@ Contributors: thomasB5
 Donate link: #
 Requires at least: PHP 5.3, WP 3.9.6
 Tested up to: 4.23
+Tags: sponsorship, sons, or , ship, emails, rewards, program
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -41,3 +42,5 @@ All emails sent out are saved in the database under *prefix*email_contacts (the 
 For more information on extensions and documentation go to our website: http://www.wp-inbound.com/.
 
 A full installation and set up guide can be found at http://www.wp-inbound.com/documentation-wpsponsorship/.
+
+tags: [Bunnies] (“/tags/bunnies”)
