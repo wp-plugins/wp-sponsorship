@@ -42,4 +42,4 @@ For more information on extensions and documentation go to our website: http://w
 
 A full installation and set up guide can be found at http://www.wp-inbound.com/documentation-wpsponsorship/.
 
-tags: [email] (“tags/email“), 
+tags: [WordPress](http://wordpress.org/ “Your favorite software”)
