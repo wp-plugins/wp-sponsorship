@@ -64,6 +64,6 @@ Simply leave it Blank! But make sure you configure the share URL properly.
 
 First you have to have a Google account (Gmail, youtube etc). Then search “google developers” and click the first link which should be to Google Developers Console. From there, simply follow the instructions and you are good to go!
 
-= I keep Getting a “URL Mismatch” when using the Import Gmail button. What is wrong?=
+= I keep Getting a “URL Mismatch” when using the Import Gmail button. What is wrong? =
 
 This error happens when the url on the Google project page does not match the link in the “Google Config” page. I got this error when testing and it seemed that the “/” at the end of the URL had an effect. Make sure either both do not have it, or both have it.
