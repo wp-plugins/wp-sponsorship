@@ -44,3 +44,26 @@ For more information on extensions and documentation go to our website: http://w
 A full installation and set up guide can be found at http://www.wp-inbound.com/documentation-wpsponsorship/.
 
 If there are any bugs please report them on www.wp-inbound.com on the contact page and we will fix it ASAP!
+
+
+== Frequently Asked Questions ==
+
+= Which SMTP Server Should I use? =
+
+Bottom line is that it really doesn’t matter. It is personal preference. (I used Turbo SMTP when I tested the plugin.)
+
+= How do I change the CSS for the shortcode page? =
+
+All the styling is in the following path “plug-in-folder/public/css/sponsorship-public.css”. Add any CSS in that file. (Same format for all other extensions as well)
+
+= What if I already have my meta tags configured? =
+
+Simply leave it Blank! But make sure you configure the share URL properly.
+
+= How do I make a project With Google? =
+
+First you have to have a Google account (Gmail, youtube etc). Then search “google developers” and click the first link which should be to Google Developers Console. From there, simply follow the instructions and you are good to go!
+
+= I keep Getting a “URL Mismatch” when using the Import Gmail button. What is wrong?=
+
+This error happens when the url on the Google project page does not match the link in the “Google Config” page. I got this error when testing and it seemed that the “/” at the end of the URL had an effect. Make sure either both do not have it, or both have it.
