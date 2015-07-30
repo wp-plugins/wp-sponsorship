@@ -3,7 +3,7 @@ Contributors: thomasB5
 Donate link: #
 Requires at least: PHP 5.3, WP 3.9.6
 Tested up to: 4.23
-Tags: sponsorship, spons, or , ship, emails, rewards, program, inboundmarketing, inbound, marketing, traffic, users, codes, lebron, pairrainage, b5productions, super, good, plugin, potd, sponsorship, attract, wpponsorship, wsponsorship, wps, inbound marketing, 
+Tags: sponsorship, spons, or , ship, emails, rewards, program, inboundmarketing, inbound, marketing, traffic, users, codes, lebron, pairrainage, b5productions, super, good, plugin, potd, sponsorship, attract, wpponsorship, wsponsorship, wps, inbound marketing,sponsor, sponsors, filleul,  
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
