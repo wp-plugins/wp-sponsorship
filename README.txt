@@ -17,6 +17,8 @@ The content of the E-mails are controlled by the admin. They can contain links, 
 
 This is meant to be a base to build on! So be creative!
 
+The content in the E-mail follows a pre-built template (Photo in Screenshots tab). The admin has control over the colors, links and text. 
+
 If you are interested, we have some extensions we built ourselves at http://www.wp-inbound.com/wpsponsorship/.
 
 Before you get started, you will need an SMTP server. Alternatively, you can use your Gmail account as an SMTP server if you wish. For more information check out this link: https://www.digitalocean.com/community/tutorials/how-to-use-google-s-smtp-server.
@@ -77,3 +79,7 @@ First you have to have a Google account (Gmail, youtube etc). Then search “goo
 = I keep Getting a “URL Mismatch” when using the Import Gmail button. What is wrong? =
 
 This error happens when the url on the Google project page does not match the link in the “Google Config” page. I got this error when testing and it seemed that the “/” at the end of the URL had an effect. Make sure either both do not have it, or both have it.
+
+== Screenshots ==
+
+1. This is what the pre-built template looks like. If you prefer to build your own template, download version 1.0.0. `/assets/email_template.png`
