@@ -82,4 +82,4 @@ This error happens when the url on the Google project page does not match the li
 
 == Screenshots ==
 
-1. This is what the pre-built template looks like. If you prefer to build your own template, download version 1.0.0. `/assets/email_template.png`
+1. This is what the pre-built template looks like. If you prefer to build your own template, download version 1.0.0.
