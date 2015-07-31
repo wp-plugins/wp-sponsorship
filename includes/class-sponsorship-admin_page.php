@@ -232,15 +232,102 @@
 		    'id'      => 'sender_address',
 		    'type'    => 'text'
 			) );
-		echo $this->email_body_warning;
+
 		$cmb->add_field( array(
-			'name' => __( 'Email Body', 'sponsorship' ),
-			'desc' => __( 'Save when done editing', 'sponsorship' ),
+		    'name'    => __('facebook page URL', 'sponsorship'),
+		    'desc'    => __('URL for your facebook page', 'sponsorship'),
+		    'id'      => 'wps_fb_url',
+		    'type'    => 'text'
+			) );
+
+		$cmb->add_field( array(
+		    'name'    => __('Twitter page URL', 'sponsorship'),
+		    'desc'    => __('URL for Twitter page', 'sponsorship'),
+		    'id'      => 'wps_twitter_url',
+		    'type'    => 'text'
+			) );
+
+		$cmb->add_field( array(
+		    'name'    => __('Google+ URL', 'sponsorship'),
+		    'desc'    => __('URL for Google+ page', 'sponsorship'),
+		    'id'      => 'wps_goog_url',
+		    'type'    => 'text'
+			) );
+
+		$cmb->add_field( array(
+		    'name'    => __('Company E-mail'),
+		    'desc'    => __('E-mail to contact your company', 'sponsorship'),
+		    'id'      => 'wps_company_email',
+		    'type'    => 'text'
+			) );
+
+		$cmb->add_field( array(
+		    'name'    => __('Company Phone #', 'sponsorship'),
+		    'desc'    => __('Contact number', 'sponsorship'),
+		    'id'      => 'wps_phone_num',
+		    'type'    => 'text'
+			) );
+
+		$cmb->add_field( array(
+		    'name'    => __('Link URL', 'sponsorship'),
+		    'desc'    => __('URL for link after main content', 'sponsorship'),
+		    'id'      => 'wps_link_url',
+		    'type'    => 'text'
+			) );
+
+		$cmb->add_field( array(
+		    'name'    => __('Link text', 'sponsorship'),
+		    'desc'    => __('Contact number', 'sponsorship'),
+		    'id'      => 'wps_link_text',
+		    'type'    => 'text'
+			) );
+
+		$cmb->add_field( array(
+	    'name'    => __('Primary Color', 'sponsorship'),
+			'desc' => __( 'Primary color for E-mail template', 'sponsorship' ),
+	    'id'      => 'prim_color',
+	    'type'    => 'colorpicker',
+	    'default' => '#34495e',
+		) );
+
+		$cmb->add_field( array(
+		    'name'    => __('Secondary Color', 'sponsorship'),
+				'desc' => __( 'Secondary color for E-mail template', 'sponsorship' ),
+		    'id'      => 'sec_color',
+		    'type'    => 'colorpicker',
+		    'default' => '#f1c40f',
+		) );
+
+		$cmb->add_field( array(
+		    'name'    => __('Header Color', 'sponsorship'),
+				'desc' => __( 'Color for header of E-mail', 'sponsorship' ),
+		    'id'      => 'head_color',
+		    'type'    => 'colorpicker',
+		    'default' => '#e74c3c',
+		) );
+
+		$cmb->add_field( array(
+		    'name'    => 'Logo Image for E-mail',
+		    'desc'    => 'Upload an image',
+		    'id'      => 'wps_logo_email',
+		    'type'    => 'file_list',
+		    'preview_size' => array(100 , 100)
+		) );
+
+		$cmb->add_field( array(
+		    'name'    => __('Title text', 'sponsorship'),
+		    'desc'    => __('Text for title', 'sponsorship'),
+		    'id'      => 'wps_title_text',
+		    'type'    => 'text'
+			) );
+
+
+		$cmb->add_field( array(
+			'name' => __( 'Email Body Text', 'sponsorship' ),
+			'desc' => __( 'Plain text in middle of template', 'sponsorship' ),
 			'id'   => 'email_body',
 			'type' => 'wysiwyg',
 		) );
-
-
 
 		/*$cmb->add_field( array(
 	    	'name'    => __('Choose Email Service', 'sponsorship'),
@@ -252,6 +339,8 @@
 		        '2'     => __( 'PHP Mail', 'sponsorship' ),
 		    ),
 		) );*/
+
+
 	}
 
 	/**

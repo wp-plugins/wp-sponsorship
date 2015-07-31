@@ -105,6 +105,7 @@ class Sponsorship {
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-sponsorship-public.php';
 		require_once plugin_dir_path(dirname(__FILE__)) . 'vendor/autoload.php';
 		require_once plugin_dir_path(dirname(__FILE__)) . 'vendor/webdevstudios/cmb2/init.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-sponsorship-message.php';
 		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-sponsorship-header.php';
 		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-sponsorship-shortcode.php';
 		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-sponsorship-send_email.php';

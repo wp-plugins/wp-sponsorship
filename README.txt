@@ -2,9 +2,9 @@
 Contributors: thomasB5, boluge
 Donate link: #
 Requires at least: PHP 5.3, WP 3.9.6
-Tested up to: 4.23
-Tags: sponsorship, spons, or , ship, emails, rewards, program, inboundmarketing, inbound, marketing, traffic, users, codes, lebron, pairrainage, b5productions, super, good, plugin, potd, sponsorship, attract, wpponsorship, wsponsorship, wps, inbound marketing,sponsor, sponsors, filleul, wp-inbound.com, wp-inbound, super, b5, productions, marketing, online, tags, mailing, clients, plugin, money, income, customers, people, spons, wpgmail, wpscode, wpswoocode, woo
-Stable tag: 4.3
+Tested up to: 4.2.3
+Tags: sponsorship, spons, or , ship, emails, rewards, program, inboundmarketing, inbound, marketing, traffic, users, codes, pairrainage,b5prod, super, good, plugin, potd, sponsorship, attract, wpponsorship, wsponsorship, wps, inbound marketing,sponsor, sponsors, filleul, wp-inbound.com, wp-inbound, b5, productions, marketing, online, tags, mailing, clients, plugin, money, income, customers, people, spons, wpgmail, wpscode, wpswoocode, woo
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,15 @@ For more information on extensions and documentation go to our website: http://w
 A full installation and set up guide can be found at http://www.wp-inbound.com/documentation-wpsponsorship/.
 
 If there are any bugs please report them on www.wp-inbound.com on the contact page and we will fix it ASAP!
+
+== Changelog ==
+
+= 1.0.0 =
+* A version without E-mail templates. Use this if you wish to create your own templates
+* Another change.
+
+= 1.0.1 =
+* This uses a static E-mail template where you modify the colors and text. Use this version for beautiful E-mails off the bat.
 
 
 == Frequently Asked Questions ==

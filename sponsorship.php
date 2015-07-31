@@ -16,7 +16,7 @@
  * Plugin Name:       WPSponsorship
  * Plugin URI:        http://www.wp-inbound.com/
  * Description:       The core plugin for WPSponsorship, it allows users to invite their friends to your site via E-mail
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            B5productions
  * Author URI:        http://www.wp-inbound.com/
  * License:           GPL-2.0+

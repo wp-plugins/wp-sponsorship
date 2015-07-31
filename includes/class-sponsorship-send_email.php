@@ -27,8 +27,8 @@ class b5wps_send_mail
     $this->sender_email=$sender_email;
     $this->sender_subject=$sender_subject;
     foreach($_SESSION['contact_array'] as $temp) array_push($this->mail_list, $temp[1]);
-    $this->mail_settings['email_body'] = str_replace('{{CODE}}', $_SESSION['CODE'], $this->mail_settings['email_body']);
-    $this->mail_settings['email_body'] = str_replace('{{Name}}', $_SESSION['sender_name'], $this->mail_settings['email_body']);
+    $email_message=new b5wps_mail_message();
+    $this->email_body=$email_message->content;
     //$this->email_init();
     $this->send_SMTP_mail();
   }
@@ -62,7 +62,7 @@ class b5wps_send_mail
       ->setFrom($this->mail_settings['sender_address'])
       ->setReplyTo($this->sender_email)
       ->setBcc($this->mail_list)
-      ->setBody($this->mail_settings['email_body']);
+      ->setBody($this->email_body, 'text/html');
     $numSent = $mailer->send($message);
   }
 

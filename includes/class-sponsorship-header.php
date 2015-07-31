@@ -7,11 +7,17 @@
 add_action('plugins_loaded', 'b5wps_translate_sponsorship');
 add_action('admin_notices', 'b5wps_admin_messages');
 add_action('init', 'b5wps_my_start_session', 1);
+add_action( 'after_setup_theme', 'b5wps_theme_setup' );
+
 
 //Removed <link> altogether, wrote it before I realized Wordpress had all the icons I needed.
 function b5wps_translate_sponsorship()
 {
   load_plugin_textdomain('sponsorship', false, dirname( plugin_basename(__FILE__) ) . '/languages/' );
+}
+
+function b5wps_theme_setup() {
+    add_image_size('wps_logo_email_size', 200, 100);
 }
 
 function b5wps_admin_messages()
@@ -69,7 +75,8 @@ function b5wps_admin_messages()
 function b5wps_my_start_session()
 {
   	ob_start();
-    session_start();
+    if(!session_id()) session_start();
+
     global $post;
     global $wpdb;
     //regex pattern used to ensure security of inputs
