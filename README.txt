@@ -49,10 +49,11 @@ If there are any bugs please report them on www.wp-inbound.com on the contact pa
 
 = 1.0.0 =
 * A version without E-mail templates. Use this if you wish to create your own templates
-* Another change.
+
 
 = 1.0.1 =
 * This uses a static E-mail template where you modify the colors and text. Use this version for beautiful E-mails off the bat.
+*bug fixes
 
 
 == Frequently Asked Questions ==
