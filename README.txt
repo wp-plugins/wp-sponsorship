@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: thomasB5, boluge
+Contributors: thomasB5, boluge, xbenx
 Donate link: #
 Requires at least: PHP 5.3, WP 3.9.6
 Tested up to: 4.2.3

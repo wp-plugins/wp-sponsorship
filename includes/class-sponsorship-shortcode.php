@@ -35,8 +35,9 @@ class b5wps_sponsorship_shortcode
       $_SESSION['CODE'] = $this->sponsor_code;
 		}
 
-		if((class_exists( 'b5wpsc_email_send_code' ) || class_exists( 'b5wpsw_email_send_woo' )) && !get_current_user_id())	echo '<p>You are not a User on this site, Register now!</p>';
-		else $this->user_layout();
+		//if((class_exists( 'b5wpsc_email_send_code' ) || class_exists( 'b5wpsw_email_send_woo' )) && !get_current_user_id())	echo '<p>You are not a User on this site, Register now!</p>';
+		//else
+		 $this->user_layout();
 	}
 
 	public function is_code_set()
